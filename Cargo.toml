@@ -1,0 +1,11 @@
+[package]
+name = "ghostline-refitter"
+version = "0.1.0"
+edition = "2024"
+description = "Native character garment fitting algorithms"
+
+[dependencies]
+glam = "0.30"
+
+[lints.rust]
+unsafe_code = "forbid"
