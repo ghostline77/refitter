@@ -9,11 +9,11 @@ displacements. The caller applies those changes to preview and export resources.
 
 ## Use the library
 
-Add the crate to a sibling Rust project:
+Add the crate to your Rust project:
 
 ```toml
 [dependencies]
-ghostline-refitter = { path = "../refitter" }
+ghostline-refitter = { git = "https://github.com/ghostline77/refitter" }
 ```
 
 The Rust import name is `ghostline_refitter`. Geometry uses `glam::Vec3`
